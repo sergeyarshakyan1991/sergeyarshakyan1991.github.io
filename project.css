@@ -1,0 +1,176 @@
+
+.header{
+width: 100%;
+height:auto;
+background-image: url("images/content1.png");
+background-size: cover;
+background-repeat: no-repeat;
+overflow: hidden;
+}
+.logotop{
+  float: left;
+  width:100%;
+  margin-left: 4%;
+}
+.navbar
+{
+
+  float: left;
+
+
+}
+button{
+outline: none;
+}
+.navbar ul
+{
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.navbar ul li
+{
+padding: 15px;
+}
+.navbar ul li a
+{
+text-decoration:none;
+color: white;
+}
+
+.social{
+
+  padding: 15px;
+  float: left;
+  width: 160px;
+margin-top: 2%;
+
+}
+.back{
+background-color:rgba(105,087,024,0.8);
+width: 130px;
+margin: auto;
+border-radius: 10px;
+border:2px solid #DAB33E;
+}
+.social a>img{
+padding: 10px;
+text-align: center;
+}
+.right{
+float: left;
+margin-top:60px;
+margin-bottom: 60px;
+color:white;
+text-align: center;
+font-size: 50px;
+}
+.right button{
+  outline: none;
+  font-size: 20px;
+  width:300px;
+  height: 60px;
+  background-color:rgba(105,087,024,0.5);
+  margin-top:2%;
+  border-radius:10px;
+}
+.sec1bg{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-image: url("images/sec1bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.block1{
+  padding-top: 3%;
+  float: left;
+  margin: auto;
+  text-align: center;
+  color: #E9D69E;
+  font-size: 50px;
+}
+.block2{
+    padding-top: 3%;
+  float: left;
+  margin:auto;
+}
+.text>p{
+  font-size: 15px;
+  color:black;
+}
+.sec2bg{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-image: url("images/sec2bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.block3{
+
+  margin-bottom:10%;
+
+  height: auto;
+  overflow: hidden;
+text-align: center;
+margin-top: 10%;
+background-color: rgba(50, 41, 35, 0.6);
+}
+.sec3bg{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-image: url("images/sec3bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.specical{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-image: url("images/menuborder.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.sec4bg{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-image: url("images/sec4bg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.block7
+{
+width: 100%;
+height: auto;
+overflow: hidden;
+background-image: url("images/sec1bg.png");
+background-size: cover;
+background-repeat: no-repeat;}
+label{
+  color:#CC9900;
+}
+input{
+font-style: italic;
+}
+
+@keyframes myanim {
+  0%{
+      transform: skew(-20deg , 20deg);
+  }
+   50%{
+       transform: skew(20deg , -20deg);
+   }
+    100%{
+        transform: skew(-20deg , 20deg);
+    }
+
+}
+@media only screen and (max-width:1024px){
+  .social{
+    display: none;
+  }
+}
