@@ -1,0 +1,83 @@
+.sec1_div{
+    width: 80%;
+    height: 350px;
+    margin: auto;
+
+
+}
+.sec1_left{
+    width: 47%;
+    height: 250px;
+    background: url("../Files/Layer 9.png");
+    background-size: 100% 100%;
+    display: flex;
+    align-items: flex-end;
+
+}.sec1_right{
+    width: 47%;
+    height: 250px;
+     background: url("../Files/Layer 10.png");
+     background-size: 100% 100%;
+}
+.top_div{
+    width: 100%;
+    height: 270px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+
+}
+ .sec1_text{
+
+     width: 100%;
+     height: 50px;
+
+     display: flex;
+     justify-content: space-around;
+
+ }
+.sec1_text_left{
+    width: 47%;
+    height: 100%;
+
+    font-size: 19px;
+}
+.sec1_text_right{
+    width: 47%;
+    height: 100%;
+    font-size: 19px;;
+
+}
+html {
+    height: 100%
+}
+.sp1{
+    padding-right: 4px;
+    border-right: 2px solid darkgray;
+    color: darkgray;
+    font-size:13px;
+}
+.sp2{
+    color: #1A54E6;
+    font-size: 13px;
+}
+.anim{
+    width: 70px;
+    height: auto;
+    background-color: #1A54E6;
+    margin-bottom: 10px;
+    padding: 7px;
+    color: white;
+
+}
+.fas{
+    width: 70px;
+    height: auto;
+    background-color: crimson;
+    margin-bottom: 10px;
+    padding: 7px;
+    color: white;
+    float: right;
+    margin-top: 204px;
+
+}

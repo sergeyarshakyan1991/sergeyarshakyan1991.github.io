@@ -280,6 +280,10 @@ button{
   color:#541;
   margin-top: 2%;
 }
+
+
 .fulldiv{
   object-fit: cover;
+
+  margin-top: 20px;
 }
