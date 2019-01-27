@@ -32,3 +32,8 @@
 .navbar ul li a{
   color:white;
 }
+footer{
+  background: #281004;
+  padding: 2%;
+overflow: hidden;
+}
