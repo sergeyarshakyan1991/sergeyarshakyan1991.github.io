@@ -9,6 +9,13 @@ $("#scroll").css({
 });
   });
 });
-setTimeout("$('#scroll').get(0).style.border='2px solid blue'",2000);
-setTimeout("$('#scroll').get(0).style.border='2px solid yellow'",3000);
-setTimeout("$('#scroll').get(0).style.border='2px solid violet'",4000);
+
+setTimeout("$('#logo').get(0).style.border='2px solid yellow'",4000);
+setTimeout("$('#logo').get(0).style.border='2px solid #5765b4'",8000);
+setTimeout("$('#logo').get(0).style.border='2px solid #735D46'",12000);
+
+setTimeout("$('#scroll').get(0).style.border='2px solid blue'",6000);
+setTimeout("$('#scroll').get(0).style.border='2px solid yellow'",8000);
+setTimeout("$('#scroll').get(0).style.border='2px solid violet'",10000);
+setTimeout("$('#scroll').get(0).style.border='2px solid #735D46'",12000);
+setTimeout("$('#scroll').get(0).style.border='2px solid green'",15000);
