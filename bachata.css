@@ -58,6 +58,14 @@ padding-bottom: 20px;
   background-color:black;
 
 }
+.sec_3{
+  width:100%;
+  float: left;
+  overflow: hidden;
+  height:400px;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+}
 .col_1{
   height:400px;
   background-color: white;
@@ -93,6 +101,13 @@ background-color:#584;
 .col_1_3:hover{
 
 background-color:#664;
+}
+#but{
+   position:absolute;
+   margin-left:39%;
+   margin-top:10%;
+   width:120px;
+   height:200px;
 }
 @media only screen and (max-width:600px){
 #vid{
