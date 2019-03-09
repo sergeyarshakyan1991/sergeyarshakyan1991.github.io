@@ -10,12 +10,80 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  border-bottom: 2px dotted black;
 
 
 }
+.facebook{
+
+  background:#3B5998;
+  color:black;
+  border-radius:50px;
+  outline:none;
+  cursor:pointer;
+  width:28px;
+  border:white
+}
+.facebook:hover{
+  background-color:black;
+  color:white;
+  outline:none;
+
+}
+.instagram{
+
+  background:#D83FAB;
+  color:black;
+  border-radius:50px;
+  outline:none;
+  cursor:pointer;
+  width:28px;
+  border:white
+}
+.instagram:hover{
+  background-color:black;
+  color:white;
+  outline:none;
+}
+.twitter{
+
+  background:#4DC2F8;
+  color:black;
+  border-radius:50px;
+  outline:none;
+  cursor:pointer;
+  width:28px;
+  border:white
+}
+.twitter:hover{
+  background-color:black;
+  color:white;
+  outline:none;
+}
+.soc{
+  width:150px;
+  overflow: hidden;
+  margin:auto;
+  text-align: center;
+}
+.clock{
+  width:150px;
+  overflow: hidden;
+  margin:auto;
+  text-align: center;
+  margin-top: 5px;
+}
+.flag{
+  width:95px;
+  overflow: hidden;
+  margin:auto;
+  justify-content: center
+}
+#clock{
+  font-weight:300;
+  font-size: 20px;
+}
+
 .sec_1_1{
-  border-radius: 20px;
   height:auto;
   border:3px solid black;
   margin:auto;
@@ -39,6 +107,8 @@ margin: auto;
 border-radius: 15px;
 border: 2px dotted black;
 }
+
+
 
 /* .sec_1_2{
   border-radius: 20px;
@@ -201,11 +271,13 @@ background-color:#664;
 #vid{
   height:323px;
 }
+
 iframe{
   width:100%;
   height:250px;
   margin-bottom:2%;
 }
+
 .txt{
   position:absolute;
   margin-left:41%;
