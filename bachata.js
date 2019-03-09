@@ -1,3 +1,30 @@
+function currontTime(){
+  var clockBlock=document.getElementById('clock');
+  var date=new Date();
+  var hours=date.getHours();
+  if(hours<10){
+    hours='0'+hours;
+  }
+  var minutes=date.getMinutes();
+  if(minutes<10){
+    minutes='0'+minutes;
+  }
+  var seconds=date.getSeconds();
+  if(seconds<10){
+    seconds='0'+seconds;
+  }
+  // var milliSeconds=date.getMilliseconds();
+  // if(milliSeconds<100){
+  //   milliSeconds='0'+milliSeconds;
+  // }else if(milliSeconds<10){
+  //   milliSeconds='00'+milliSeconds;
+  //
+  // }
+  // +':'+milliSeconds
+  date=clockBlock.innerHTML=hours+':'+minutes+':'+seconds;
+}
+setInterval(currontTime,100);
+
 $(document).ready(function(){
   $("#scroll").click(function(){
 $('body').animate({'scrollTop':0},3000);
