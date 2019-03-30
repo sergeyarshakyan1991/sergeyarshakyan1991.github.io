@@ -28,7 +28,7 @@
   background-color:black;
   color:white;
   outline:none;
-
+  box-shadow: 0px 10px 10px -2px white;
 }
 .instagram{
 
@@ -44,6 +44,7 @@
   background-color:black;
   color:white;
   outline:none;
+  box-shadow: 0px 10px 10px -2px white;
 }
 .twitter{
 
@@ -59,6 +60,7 @@
   background-color:black;
   color:white;
   outline:none;
+  box-shadow: 0px 10px 10px -2px white;
 }
 .soc{
   width:150px;
