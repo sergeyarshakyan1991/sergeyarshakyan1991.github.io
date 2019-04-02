@@ -12,6 +12,7 @@
     <title>bachata</title>
   </head>
   <body>
+    <div class="container-fluid"style="overflow:hidden;height:auto;background:black;">
     <div class="container">
       <nav class="navbar navbar-expand-lg"style="background:#735D46;border-top-left-radius:30px;border-top-right-radius:30px;">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation"style="outline:none;">
@@ -37,10 +38,18 @@
       <a class="nav-link" href="#bachatacompany"><i class="fas fa-id-card" style="color:green"></i> Contacts</a>
       </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <button class="btn btn-outline-danger my-2 my-sm-0"style="margin-right:5px;"><a href="http://poll.loc/search/search.php"style="text-decoration:none;color:red">x</a></button>
+      <form class="form-inline my-2 my-lg-0"method="post">
+      <input class="form-control mr-sm-2"name="search" type="text" placeholder="Search" aria-label="Search"required >
+      <input class="btn btn-outline-success my-2 my-sm-0" name="sea" type="submit"value="որոնել">
       </form>
+      <!-- <form action="" method="post">
+      <input type="text" name="search"required class="form-control col-sm-10 col-md-10 col-lg-4" style="margin:auto;border:3px solid #28A745"placeholder="որոնում"><br>
+      <div class="col-sm-1 col-md-1 col-lg-1"style="margin:auto;text-align:center">
+      <input class="btn btn-success" type="submit" name="sea" value="որոնել" >
+      </div>
+      </form><br> -->
+
       </div>
       </nav>
 
@@ -50,7 +59,31 @@
        border-radius:90%;width:50%;margin-top: 10%;border: 5px dotted white;
        margin-left: 7%;animation: example 12s linear  infinite normal;box-shadow:5px 5px 60px 5px white"id="logo"></div></div>
      </div>
+     <div class="col-sm-12 col-md-12 col-lg-12" style="overflow:hidden;height:auto">
 
+ <div class=" col-sm-8 col-md-12 col-lg-10" style="font-family:monospace;height:auto;background-color:#735D46;border-radius: 50px;overflow:hidden;text-align:center;margin:auto;border:1px solid black">
+
+           <!-- <?php
+           // include('connect.php');
+           // if(isset($_POST['sea'])){
+           //   $s=$_POST['search'];
+           // $sql="SELECT * FROM state WHERE state LIKE '%$s%'";
+           //   $res=mysqli_query($conn,$sql);
+           //   $q=mysqli_num_rows($res);
+           //   if ($q==false) {
+           //          echo "<h1 style=color:black>ոչինչ չի գտնվել</h1>";
+           //        }else{
+           //               while($row=mysqli_fetch_assoc($res)){
+           //          echo "<h1 style=color:black>".$row['state']."</h1><br>";
+           //          echo "<p style=color:black>".$row['history']."</p><br>";
+           //        }
+           //
+           //      }
+           // }
+           // ?> -->
+
+           </div>
+     </div>
 
 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12" style="width:100%;height:auto;background:rgba(0,0,0,0.7);overflow:hidden;padding-top:5px;box-shadow:5px 10px 100px 15px white;
 border-top:3px dotted white;border-top-left-radius:100px;border-top-right-radius:100px;">
@@ -83,37 +116,45 @@ border-top:3px dotted white;border-top-left-radius:100px;border-top-right-radius
 </div>
 
 
-     <div class="sec_1_1 col-sm-10 col-md-10 col-lg-10 col-xl-10" style="">
-       <div class="seccol col-sm-12 col-md-12 col-lg-6 col-xl-6"data-aos="fade-right">
+     <!-- <div class="sec_1_1 col-sm-10 col-md-10 col-lg-10 col-xl-10" style=""> -->
+       <div class="seccol col-sm-12 col-md-12 col-lg-6 col-xl-6"data-aos="fade-right"style="transition:2s">
 <!-- <img src="images/cofbraz.png" alt=""style="width:80%;margin:auto;margin-left:10%"> -->
 <img src="images/map.png" alt=""style="width:80%;height:80%;margin:auto;margin-left:10%;margin-top:5%;">
        </div>
-       <div class="seccol col-sm-12 col-md-12 col-lg-6 col-xl-6"data-aos="fade-left">
-         <h1 style="text-align:center">Coffee</h1>
-         <p style="text-align:center">Lorem ipsum dolor sit amet,
-           consectetur adipisicing elit,
-           sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua.
+       <div class="seccol col-sm-12 col-md-12 col-lg-6 col-xl-6"data-aos="fade-left"style="transition:2s">
+         <h4 style="text-align:center">Brazilian Coffee </h4>
+         <p style="text-align:center">
+          Coffee production in Brazil is responsible
+           for about a third of all coffee, making
+            Brazil by far the world's largest producer,
+             a position the country has held for the
+             last 150 years.
              </p>
        </div>
-       <div class="seccol col-sm-12 col-md-12 col-lg-6 col-xl-6"data-aos="fade-up">
-         <h1 style="text-align:center">Coffee</h1>
-         <p style="text-align:center">Lorem ipsum dolor sit amet,
-           consectetur adipisicing elit,
-           sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua.
+       <div class="seccol col-sm-12 col-md-12 col-lg-6 col-xl-6"data-aos="fade-up"style="transition:2s">
+         <h4 style="text-align:center">Kenya AA Coffee</h4>
+         <p style="text-align:center">
+           Not only is Kenya AA Coffee one of the
+            biggest coffee brands in Africa, it is
+             also named the tenth best coffee
+           brand in the world. Being the country
+           best known for its quality coffee produce.
+
              </p>
        </div>
-       <div class="seccol col-sm-12 col-md-12 col-lg-6 col-xl-6"data-aos="fade-up">
-         <h1 style="text-align:center">Coffee</h1>
-         <p style="text-align:center">Lorem ipsum dolor sit amet,
-           consectetur adipisicing elit,
-           sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua.
+       <div class="seccol col-sm-12 col-md-12 col-lg-6 col-xl-6"data-aos="fade-up"style="transition:2s">
+         <h4 style="text-align:center">African Coffee </h4>
+         <p style="text-align:center">
+African coffee culture has recently been
+brewing up a storm. A heightened
+ growth in strong, domestic consumer markets
+  have been seen, as well as an increase in
+  café culture within Africa’s urban areas.
              </p>
        </div>
-     </div>
+     <!-- </div> -->
 </div>
+
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -176,7 +217,7 @@ border-top:3px dotted white;border-top-left-radius:100px;border-top-right-radius
    <div class="col_1_2"style="padding:3%;">
      <div class="colrob" style="width:80%;height:320px;background:rgba(31,22,12, 0.7);padding-top: 20px;margin:auto;border-radius:10px"data-aos="zoom-out-down">
       <form>
-       <div class="form-group" style="width:200px;margin:auto;">
+       <div class="form-group col-sm-1 col-md-10 col-md-10" style="margin:auto;">
          <input type="text" class="form-control" name="name" value=""><br>
          <input type="text" class="form-control" name="lastname" value=""><br>
          <input type="password" class="form-control" name="password" value=""><br>
@@ -205,6 +246,7 @@ border-top:3px dotted white;border-top-left-radius:100px;border-top-right-radius
  </div>
       </div>
 
+
        <div id="vid"class="col-sm-12 col-md-12 col-lg-12">
 <h1 style="text-align:center;color:white;background-color:#352116;padding:5px;"id="coffeestory">Coffee Story</h3>
       <iframe src="https://www.youtube.com/embed/yj6bszuR_Ng"></iframe>
@@ -212,7 +254,7 @@ border-top:3px dotted white;border-top-left-radius:100px;border-top-right-radius
 
 
 
-         <div class="sec_3 col-sm-12 col-md-12 col-lg-12 col-xl-12"id="focus">
+         <div class="sec_3 col-sm-12 col-md-12 col-lg-12 col-xl-12"id="focus"style="background:white">
          <div class="fok"style="margin-left:80%;position:absolute;">
          <img src="images/fokusi.png" alt=""style="position:absolute;"id="img1">
          <img src="images/fokusss.png"style="position:absolute;cursor:pointer" alt=""id="img2">
@@ -256,6 +298,7 @@ border-top:3px dotted white;border-top-left-radius:100px;border-top-right-radius
 </div>
     </footer>
     </div>
+  </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="bachata.js"></script>
 <script>
